@@ -1,0 +1,105 @@
+.content{
+    position: relative;
+    margin-top: 20px;
+}
+.logo-login{
+    height: 50px;
+}
+.logo-login span{
+    display: inline-block;
+    border-left: 1px solid #d5dce1;
+    margin:15px 10px;
+    padding-left: 10px;
+    font-family: '微软雅黑';
+    font-size: 20px;
+}
+.memu{
+    padding-top: 70px;
+    margin: 0 auto;
+    width: 364px;
+
+
+}
+.login-form{
+    position: relative;
+}
+
+.login-form input{
+    width: 100%;
+    font-size: 16px;
+    font-family: 微软雅黑;
+    padding-left: 10px;
+    box-sizing: border-box;
+    color: #a9a9a9;
+}
+.login-form .username{
+    border: 1px solid #cccccc;
+    border-radius: 5px 5px 0 0;
+    height: 48px;
+}
+.login-form .email{
+    border-left: 1px solid #ccc;
+    border-right:1px solid #ccc;
+    height: 48px;
+}
+.login-form .pass{
+    border: 1px solid #cccccc;
+    border-radius: 0 0 5px 5px;
+    height: 48px;
+}
+.memu span{
+    margin: 15px 0;
+}
+.memu .clause{
+    display: block;
+
+}
+.memu a{
+    color: #55a9d7;
+}
+.memu .sub{
+    width: 100%;
+    border-radius:5px;
+    height: 48px;
+    font-size: 20px;
+    background: #55a9d7;
+    font-family: 微软雅黑;
+    color: #fff;
+}
+.memu .no_account{
+    display: block;
+    font-size: 14px;
+}
+.footer{
+    position: absolute;
+    bottom: 24px;
+    width: 100%;
+    text-align: center;
+}
+.login-form .usename_empty{
+    position: absolute;
+    top: 10px;
+    left: 375px;
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    color: red;
+}
+.login-form .email_empty{
+    position: absolute;
+    top: 60px;
+    left: 375px;
+    width: 200px;
+    height: 30px;
+    line-height: 30px;
+    color: red;
+}
+.login-form .pass_empty{
+    position: absolute;
+    top: 100px;
+    left: 375px;
+    width: 250px;
+    height: 30px;
+    line-height: 30px;
+    color: red;
+}
